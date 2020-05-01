@@ -1,17 +1,13 @@
-const numbers = {
-  100: 'one hundred',
-  16 : 'sixteen',
-  '76 trombones' : 'great song'
-};
-console.log(numbers[100])
-console.log(numbers['76 trombones'])
+const userReviews = {};
 
-const palette ={
-  red: '#eb4d4b',
-  yellow: '#f9ca24',
-  blue: '#30336b'
-}
+userReviews['queenBee49'] = 4.0;
+userReviews.mrSmith78 = 3.5;
 
-let mysteryColor = 'yellow';
-console.log(palette[mysteryColor]);
-console.log(palette['bl' + 'ue']);
+console.log(userReviews);
+userReviews.colt = '5';
+console.log(userReviews);
+userReviews.colt = 5;
+console.log(userReviews);
+userReviews['queenBee49'] += 2;
+userReviews.mrSmith78 ++;
+console.log(userReviews);
